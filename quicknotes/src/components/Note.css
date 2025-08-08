@@ -1,0 +1,83 @@
+.notes-container {
+  display: inline-block;
+  min-width: 200px;
+  padding: 12px;
+  margin: 6px;
+  border: 1px solid rgba(186, 178, 178, 0.15);
+  border-radius: 10px;
+  vertical-align: top;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+}
+.notes-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.firstRow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.noteTitle {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  margin-top: 5px;
+  font-weight: 600;
+  color: #213547;
+}
+.noteText {
+  font-size: 15px;
+  border: none;
+  outline: none;
+  margin-top: 6px;
+  resize: none;
+  white-space: normal;
+  word-wrap: break-word;
+  color: #333;
+  line-height: 1.4;
+}
+
+.deleteNote {
+  background: none;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #999;
+  transition: color 0.2s ease;
+}
+.deleteNote:hover { color: #e53935; }
+
+.noteDates {
+  margin-top: 12px;
+  font-size: 13px;
+  color: #777;
+  border-top: 1px solid rgba(0,0,0,0.08);
+  padding-top: 6px;
+  font-style: italic;
+}
+.createdLine, .updatedLine { line-height: 1.4; }
+.noteDate { font-size: 12px; color: #555; }
+
+.noteCategorySelect {
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.noteCategory {
+  font-size: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.category-Personal { background-color: #ffe4e1; }
+.category-Work     { background-color: #e0f7fa; }
+.category-Ideas    { background-color: #fff9c4; }
+.category-Other    { background-color: #f3e5f5; }

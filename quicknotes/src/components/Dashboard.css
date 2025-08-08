@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.dashboard {
+  max-width: 1200px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.filter-bar,
+.input-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  width: 100%;
+}
+
+.filter-bar {
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.search-input {
+  padding: 8px 10px;
+  border: 1px solid #d0d4e4;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 100%;
+  max-width: 300px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4a6cf7;
+  box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.15);
+}
+
+.category-buttons {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-buttons button {
+  border: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+  background: #e6e9f2;
+  color: #333;
+  font-size: 14px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.category-buttons button:hover {
+  background: #d4daf0;
+}
+
+.category-buttons button.active {
+  background: #4a6cf7;
+  color: white;
+}
+
+.notes-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  direction: ltr;
+}
+
+.mantine-Modal-overlay {
+  position: fixed !important;
+  inset: 0 !important;
+  background: rgba(0, 0, 0, 0.35) !important;
+  backdrop-filter: blur(2px);
+}
+
+.mantine-Modal-inner {
+  position: fixed !important;
+  inset: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.mantine-Modal-header {
+  display: none !important;
+}
+
+.mantine-Modal-content,
+.mantine-Modal-body {
+  color: #213547 !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.15);
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: transparent; 
+}
+
+.modal-note {
+  padding: 20px;
+  min-width: 320px;
+  max-width: 580px;
+  border-radius: 10px;
+}
+
+.modal-note .noteText {
+  white-space: pre-wrap;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.category-Personal { background-color: #ffe4e1; }
+.category-Work { background-color: #e0f7fa; }
+.category-Ideas { background-color: #fff9c4; }
+.category-Other { background-color: #f3e5f5; }

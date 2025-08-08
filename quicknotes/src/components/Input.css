@@ -1,0 +1,54 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  border-radius: 12px;
+  border: 1px solid #e6e9ef;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  background: #fafafa;
+  padding: 12px;
+}
+
+.noteTitle,
+.noteText,
+.noteCategorySelect {
+  width: 90%;
+  margin: 8px auto;
+  border: 1px solid #d0d4e4; 
+  border-radius: 10px; 
+  padding: 8px 10px;
+  font-size: 15px;
+  font-family: inherit;
+  background-color: #fff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.noteText{
+  resize: "none";
+}
+
+.noteTitle:focus,
+.noteText:focus,
+.noteCategorySelect:focus {
+  outline: none;
+  border-color: #4a6cf7; 
+  box-shadow: 0 0 0 3px rgba(74, 108, 247, 0.15);
+}
+
+.addNote-button {
+  width: 90%;
+  margin: 10px auto 5px;
+  border: none;
+  border-radius: 8px;
+  background: #4a6cf7;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 15px;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+.addNote-button:hover {
+  background: #3c58d1;
+  transform: translateY(-1px);
+}
