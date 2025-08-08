@@ -121,7 +121,7 @@ body {
   margin-top: 10px;
 }
 
-.category-Personal { background-color: #ffe4e1; }
-.category-Work { background-color: #e0f7fa; }
-.category-Ideas { background-color: #fff9c4; }
-.category-Other { background-color: #f3e5f5; }
+.category-Study { background-color: #ffe4e1; }
+.category-Leet     { background-color: #e0f7fa; }
+.category-Work    { background-color: #fff9c4; }
+.category-Other    { background-color: #f3e5f5; }

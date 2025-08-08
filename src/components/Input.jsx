@@ -5,7 +5,7 @@ import "./Input.css";
 function Input({ updateFunction }) {
   const [title, setTitle] = useState("");
   const [text, setText] = useState("");
-  const [category, setCategory] = useState("Personal");
+  const [category, setCategory] = useState("Study");
 
   const handleAddNote = () => {
     if (!title.trim() && !text.trim()) return;
@@ -25,7 +25,7 @@ function Input({ updateFunction }) {
 
     setTitle("");
     setText("");
-    setCategory("Personal");
+    setCategory("Study");
   };
 
   return (
@@ -50,9 +50,9 @@ function Input({ updateFunction }) {
         value={category}
         onChange={(e) => setCategory(e.target.value)}
       >
-        <option value="Personal">Personal</option>
+        <option value="Study">Study</option>
+        <option value="Leet">Leet</option>
         <option value="Work">Work</option>
-        <option value="Ideas">Ideas</option>
         <option value="Other">Other</option>
       </select>
 

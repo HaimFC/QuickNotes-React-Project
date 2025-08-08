@@ -6,9 +6,9 @@ import { Modal, Button } from '@mantine/core'
 import TextareaAutosize from 'react-textarea-autosize'
 
 const categories = [
-  { name: 'Personal', color: '#ffe4e1' },
-  { name: 'Work', color: '#e0f7fa' },
-  { name: 'Ideas', color: '#fff9c4' },
+  { name: 'Study', color: '#ffe4e1' },
+  { name: 'Leet', color: '#e0f7fa' },
+  { name: 'Work', color: '#fff9c4' },
   { name: 'Other', color: '#f3e5f5' }
 ]
 

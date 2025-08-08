@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://HaimFC.github.io/QuickNotes-React-Project/",
   "scripts": {
-    
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
@@ -16,8 +16,7 @@
     "@mantine/core": "^8.2.4",
     "@mantine/hooks": "^8.2.4",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "homepage": "https://HaimFC.github.io/QuickNotes-React-Project/"
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
