@@ -128,13 +128,3 @@ Issues and pull requests are welcome. For small fixes, open a PR. For larger cha
 
 ---
 
-## License
-
-MIT (or update to your preferred license)
-
----
-
-## Credits
-
-Built by **Haim Cohen**. ❤
-
